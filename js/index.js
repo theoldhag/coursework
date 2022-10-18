@@ -153,12 +153,12 @@ var mySwiper = new Swiper('.swiper-container1', {
     prevEl: '.swiper-button-prev',
   },
   breakpoints: {
-    1600: {
+    1280: {
       slidesPerView: 3,
       
      
       slidesPerColumnFill:"row",
-      slidesPerGroup: 3,
+      slidesPerGroup: 2,
       grid: {
         rows: 2,
         column: 3,
@@ -203,7 +203,7 @@ var mySwiper2 = new Swiper('.swiper-container2', {
   },
 
   breakpoints: {
-    1280: {
+    1281: {
       slidesPerView: 3,
       slidesPerGroup: 3,
 
@@ -243,16 +243,24 @@ var mySwiper3 = new Swiper('.swiper-container3', {
   },
 
   breakpoints: {
+
     1280: {
       slidesPerView: 3,
       slidesPerGroup: 3,
-
     },
-    568: {
+    
+
+    768: {
       slidesPerView: 2,
       slidesPerGroup: 2,
 
     },
+    320: {
+      slidesPerView: 1,
+      slidesPerGroup: 1,
+
+    },
+    
   },
   
 
@@ -263,7 +271,7 @@ var mySwiper4 = new Swiper('.swiper-container4', {
   
   
   slidesPerView: 1,
-  spaceBetween: 30,
+  spaceBetween: 50,
   slidesPerGroup: 1,
   
   
@@ -278,10 +286,19 @@ var mySwiper4 = new Swiper('.swiper-container4', {
     1280: {
       slidesPerView: 3,
       slidesPerGroup: 3,
-           
-
+      spaceBetween: 50, 
      
     },
+
+
+
+    1024: {
+      slidesPerView: 3,
+      slidesPerGroup: 3,
+      spaceBetween: 30, 
+     
+    },
+
     768: {
       slidesPerView: 2,
       slidesPerGroup: 2,
